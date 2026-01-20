@@ -147,11 +147,11 @@
  "index_web_pages_for_search": 1,
  "links": [
   {
-   "link_doctype": "Speaker Profile",
+   "link_doctype": "Event Sponsor",
    "link_fieldname": "event"
   }
  ],
- "modified": "2026-01-12 21:19:42.930049",
+ "modified": "2026-01-20 20:41:58.697761",
  "modified_by": "Administrator",
  "module": "event management",
  "name": "FE Event",

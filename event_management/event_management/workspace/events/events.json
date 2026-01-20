@@ -1,0 +1,64 @@
+{
+ "app": "frappe",
+ "charts": [],
+ "content": "[{\"id\":\"64-KLKMaAJ\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Frappe Events</span>\",\"col\":12}},{\"id\":\"3nFAE-xhgF\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Create New Event\",\"col\":4}},{\"id\":\"ivLnHT8gzd\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Hosts\",\"col\":3}},{\"id\":\"X0JzyCDoUo\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Events\",\"col\":3}},{\"id\":\"9kJhA__rDa\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Events this Month\",\"col\":4}}]",
+ "creation": "2026-01-20 21:10:38.319481",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "calendar",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "Events",
+ "link_type": "DocType",
+ "links": [],
+ "modified": "2026-01-20 21:28:24.319611",
+ "modified_by": "Administrator",
+ "module": "event management",
+ "name": "Events",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [
+  {
+   "document_type": "FE Event",
+   "label": "Events this Month",
+   "quick_list_filter": "[[\"FE Event\",\"start_date\",\"Timespan\",\"this month\"]]"
+  }
+ ],
+ "roles": [],
+ "sequence_id": 28.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "New",
+   "label": "Create New Event",
+   "link_to": "FE Event",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Cyan",
+   "doc_view": "List",
+   "label": "Hosts",
+   "link_to": "Event Host",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Green",
+   "doc_view": "List",
+   "format": "{} Published",
+   "label": "Events",
+   "link_to": "FE Event",
+   "stats_filter": "[[\"FE Event\",\"is_published\",\"=\",1]]",
+   "type": "DocType"
+  }
+ ],
+ "title": "Events",
+ "type": "Workspace"
+}
