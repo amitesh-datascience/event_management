@@ -15,7 +15,9 @@
   "section_break_rhps",
   "designation",
   "column_break_kuav",
-  "company_copy"
+  "company_copy",
+  "section_break_jnuj",
+  "social_media_links"
  ],
  "fields": [
   {
@@ -76,13 +78,23 @@
    "in_list_view": 1,
    "in_standard_filter": 1,
    "label": "Featured?"
+  },
+  {
+   "fieldname": "section_break_jnuj",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "social_media_links",
+   "fieldtype": "Table",
+   "label": "Social Media Links",
+   "options": "Social Media Link"
   }
  ],
  "grid_page_length": 50,
  "image_field": "display_image",
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-01-12 21:01:44.769351",
+ "modified": "2026-01-20 21:56:08.334351",
  "modified_by": "Administrator",
  "module": "event management",
  "name": "Speaker Profile",
