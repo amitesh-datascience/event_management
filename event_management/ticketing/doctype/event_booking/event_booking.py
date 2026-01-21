@@ -24,7 +24,7 @@ class EventBooking(Document):
 		user: DF.Link
 	# end: auto-generated types
 
-	def validate(self):
+	def  validate(self):
 		self.set_total()
 		self.set_currency()
 
